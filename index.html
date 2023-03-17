@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>comment-block</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="post">
+      <div class="post__img">
+        <img src="img/post-img.webp" alt="">
+      </div>
+      <div class="post__heading">
+        <h1>The Palestinian Tech Worker With a 4-Hour Commute</h1>
+      </div>
+      <div class="post__description">
+        <p>Moha Alshawamreh’s commute shows both the inequities of life in the West Bank and an exception to them.</p>
+      </div>
+    </div>
+    <div class="send-box">
+      <form>
+        <div class="form__fields">
+          <input type="text" class="user-name" placeholder="Name" required onkeyup="validation()">
+          <input type="text" class="user-comment" placeholder="Text" required onkeyup="validationText()">
+          <input type="date" id="user-date" name="birthday">
+        </div>
+        <button id="form__btn">COMMENT</button>
+      </form>
+    </div>
+    <div class="comments">
+      <!-- <div class="comments__item">
+        <div class="comments__img">
+          <p>U</p>
+        </div>
+        <div class="comments__info">
+          <div class="comments__info-top">
+            <div class="comments__name">USER1</div>
+            <div class="comments__date">2001-01-01</div>
+            <div class="comment__remove">x</div>
+          </div>
+          <div class="comments__text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, delectus?</p>
+          </div>
+
+          <div class="comments__img">
+            <svg id="comments_heart" fill="currentColor" width="15px" height="15px" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 01-.686 0 16.709 16.709 0 01-.465-.252 31.147 31.147 0 01-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0114 20.408z" />
+            </svg>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
